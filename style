@@ -1,0 +1,30 @@
+.heading{
+	background-image: url(flower.jpg);
+	position: relative;
+}
+h1{
+	background-color: white;
+	color: black;
+	mix-blend-mode: screen;
+	font-weight: 800;
+	font-size: 5em;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #605E5F;
+  color: white;
+  text-align: center;
+}
+
+
+.fixed-bg {
+  background-image: url("fashion.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
